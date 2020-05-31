@@ -3,14 +3,42 @@
     <body>
         <h1>Buat Account Baru!</h1>
         <h2>Sign Up Form</h2>
-        <section class = username>
+        <section class = "username">
             <label for="FirstName"> First Name</label>
             <input type="text" name="FirstName" id="FirstName">
         </section>
-        <section class = lastname>
+        <hr>
+
+        <section class = "lastname">
             <label for="LastName">Last Name</label>
             <input type="text" name="LastName" id="LastName">
         </section>
+        <hr>
+
+        <section class="gender">
+            <span>Gender</span>
+            <br>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Other</label>
+        </section>
+        <hr>
+
+        <section class="nationality">
+            <label for="nationality">Nationality</label>
+            <select name="nationality" id="nationality">
+                <option velue="Malaysian">Malaysian</option>
+                <option value="Indonesian">Indonesian</option>
+                <option value="Korean">Korean</option>
+            </select>
+        </section>
+        <hr>
+
+
+
 
         
     </body>
